@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "PontanoSans";
+  src: url(/misc/Fonts/PontanoSans/PontanoSans-VariableFont_wght.ttf);
+}
+
+html {
+  font-family: "PontanoSans";
+}
