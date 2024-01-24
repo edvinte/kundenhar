@@ -8,7 +8,7 @@
     "section section"
     "footer footer";
   grid-template-columns: auto(1fr);
-  grid-template-rows: 10vh 8fr 5fr 1fr;
+  grid-template-rows: auto(1fr);
 }
 
 header {
@@ -36,6 +36,9 @@ section {
   display: flex;
   background-color: white;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 100px;
 }
 
 footer {
