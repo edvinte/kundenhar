@@ -42,6 +42,28 @@ a:hover {
   font-weight: 100;
 }
 
+.buttonStyle {
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttonStyle:hover,
+.buttonStyle:focus {
+  background-color: white;
+  color: black;
+  border-color: black;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
 .footerStyle {
   display: block;
   align-items: center;
