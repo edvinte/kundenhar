@@ -1,0 +1,62 @@
+.navMenu ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1vw;
+  padding-left: 1.5vw;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5vh;
+  transition: font-size 0.4s;
+}
+
+a:hover {
+  font-size: 2.7vh;
+}
+
+.mainImage {
+  display: flex;
+  flex: 0 0 50vw;
+  align-self: flex-end;
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+  margin-top: 2vw;
+}
+
+.mainText {
+  align-self: center;
+  padding-left: 1.5vw;
+  font-size: inherit;
+}
+
+.mainText h1 {
+  font-weight: 300;
+  font-size: 8vh;
+}
+
+.mainText h2 {
+  font-weight: 100;
+}
+
+.footerStyle {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.footerStyle h4 {
+  margin-top: 0px;
+}
+
+.footerStyle h1 {
+  margin-bottom: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 1vh;
+  display: none;
+}
