@@ -1,16 +1,14 @@
 #container {
   display: grid;
-  height: auto;
+  min-height: 300vh;
 
   grid-template-areas:
-    "header"
-    "main"
-    "section"
-    "nav"
-    "footer";
-
-  grid-template-columns: 1fr;
-  grid-template-rows: 10vh 5fr 5fr 3fr 1fr;
+    "header header"
+    "main main"
+    "section section"
+    "footer footer";
+  grid-template-columns: auto(1fr);
+  grid-template-rows: 10vh 8fr 5fr 1fr;
 }
 
 header {
@@ -18,37 +16,31 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: white;
   position: fixed;
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
+  stroke: black 1px;
 }
 
 main {
   grid-area: main;
   display: flex;
-  background-color: blue;
+  background-color: green;
   box-sizing: border-box;
 }
 
 section {
   grid-area: section;
   display: flex;
-  background-color: green;
-  box-sizing: border-box;
-}
-
-nav {
-  grid-area: nav;
-  display: flex;
-  background-color: yellow;
+  background-color: red;
   box-sizing: border-box;
 }
 
 footer {
   grid-area: footer;
   display: flex;
-  background-color: red;
+  background-color: yellow;
   box-sizing: border-box;
 }
