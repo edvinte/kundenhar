@@ -1,7 +1,6 @@
 #container {
   display: grid;
   min-height: auto;
-
   grid-template-areas:
     "header header"
     "main main"
@@ -25,14 +24,16 @@ header {
 
 main {
   grid-area: main;
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   background-color: rgb(240, 240, 240);
   box-sizing: border-box;
 }
 
 footer {
   grid-area: footer;
-  display: flex;
+  display: block;
   background-color: white;
   box-sizing: border-box;
 }
