@@ -1,0 +1,28 @@
+.boka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 60vh;
+  background-color: rgb(99, 78, 68);
+  margin-top: 30vh;
+  border-top-right-radius: 4vw;
+  border-top-left-radius: 4vw;
+  overflow: hidden;
+}
+
+.boka h1 {
+  color: white;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.boka h2 {
+  color: white;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}

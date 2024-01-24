@@ -13,6 +13,39 @@ body {
   font-size: 2vh;
 }
 
+.navMenu ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1vw;
+  padding-left: 1vw;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5vh;
+  transition: font-size 0.2s;
+}
+
+a:hover {
+  font-size: 2.7vh;
+}
+
+.footerStyle {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.footerStyle h4 {
+  margin-top: 0px;
+}
+
+.footerStyle h1 {
+  margin-bottom: 0px;
+}
+
 ::-webkit-scrollbar {
   width: 1vh;
   display: none;
