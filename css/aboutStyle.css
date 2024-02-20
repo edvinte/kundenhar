@@ -1,13 +1,28 @@
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 60px;
+}
+
 .card {
-  margin-top: 20vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
   background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  padding: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
 }
 
 .card img {
-  width: 30vw;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.card div {
+  margin-top: 10px;
 }
