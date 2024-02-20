@@ -27,7 +27,7 @@ header {
 main {
   grid-area: main;
   display: flex;
-  background-color: rgb(240, 240, 240);
+  background-color: #f0f0f0;
   box-sizing: border-box;
 }
 
